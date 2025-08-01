@@ -1,0 +1,42 @@
+ErrorDocument 403 /page70574389.html
+ErrorDocument 404 /page70574389.html
+
+DirectoryIndex page63984049.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://lacasainvest\.com/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteCond %{HTTP_HOST} ^www\.lacasainvest.com [NC]
+RewriteRule ^(.*)$ https://lacasainvest\.com/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^home$ page63984049.html [NC]
+RewriteRule ^home/$ page63984049.html [NC]
+
+RewriteRule ^katalog$ page70405679.html [NC]
+RewriteRule ^katalog/$ page70405679.html [NC]
+
+RewriteRule ^blog$ page70406257.html [NC]
+RewriteRule ^blog/$ page70406257.html [NC]
+
+RewriteRule ^politika-konfidencialnosti$ page70384815.html [NC]
+RewriteRule ^politika-konfidencialnosti/$ page70384815.html [NC]
+
+RewriteRule ^soglasie-na-obrabotku-personalnyh-dannyh$ page70377043.html [NC]
+RewriteRule ^soglasie-na-obrabotku-personalnyh-dannyh/$ page70377043.html [NC]
+
+RewriteRule ^error$ page70574389.html [NC]
+RewriteRule ^error/$ page70574389.html [NC]
+
+RewriteRule ^off-market/mihail$ page70566849.html [NC]
+RewriteRule ^off-market/mihail/$ page70566849.html [NC]
+
+RewriteRule ^off-market/svetlana$ page71773149.html [NC]
+RewriteRule ^off-market/svetlana/$ page71773149.html [NC]
+
+

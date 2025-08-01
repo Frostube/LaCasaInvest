@@ -1,0 +1,27 @@
+User-Agent: *
+Disallow: /page70384815.html
+Disallow: /politika-konfidencialnosti
+Disallow: /page70377043.html
+Disallow: /soglasie-na-obrabotku-personalnyh-dannyh
+Disallow: /page70374997.html
+Disallow: /page70375017.html
+Disallow: /page70574389.html
+Disallow: /error
+Disallow: /page70566849.html
+Disallow: /off-market/mihail
+Disallow: /page71773149.html
+Disallow: /off-market/svetlana
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow:
+
+
+Sitemap: https://lacasainvest.com/sitemap.xml
+Sitemap: https://lacasainvest.com/sitemap-store.xml
+Sitemap: https://lacasainvest.com/sitemap-feeds.xml
